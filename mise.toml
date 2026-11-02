@@ -10,7 +10,7 @@ python = "3.15"
 # dirs
 ROOT_DIR = "{{config_root}}"
 SCANNER_DIR = "{{env.ROOT_DIR}}/scanner/CS_CityScoPy-3.2"
-APP_DIR = "{{env.ROOT_DIR}}/windpark-app"
+APP_DIR = "{{env.ROOT_DIR}}/simulator"
 API_DIR = "{{env.APP_DIR}}/server"
 
 # pnpm
@@ -27,16 +27,16 @@ dir = "{{env.SCANNER_DIR}}"
 run = "poetry run python calibrate.py"
 
 [tasks.scanner]
-description = "run the scanner"
+description = "start the scanner"
 dir = "{{env.SCANNER_DIR}}"
 run = "poetry run python run.py"
 
-[tasks.server]
-description = "run the api backend for the app"
+[tasks.simulator]
+description = "start the simulator API"
 dir = "{{env.API_DIR}}"
 run = "pnpm run start"
 
 [tasks.frontend]
-description = "run the frontend"
+description = "serve the simulator frontend"
 dir = "{{env.APP_DIR}}"
 run = "http-server -c-1"
