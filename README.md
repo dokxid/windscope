@@ -6,4 +6,3 @@ this repository contains scripts and helpers for the windscope exhibit
 - [scanner](https://github.com/ifgi/windscope_scanner)
   - based of https://github.com/CityScope/CS_CityScoPy
 - [app](https://github.com/ifgi/windpark-simulator)
-
