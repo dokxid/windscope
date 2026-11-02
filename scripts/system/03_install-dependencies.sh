@@ -18,7 +18,7 @@ if grep -q "pipx" <<< "$ENABLED_PACKAGES"; then
 fi
 
 # install OBS
-if gum confirm "install the non flatpak OBS Studio version? (not recommended)" --affirmative="no" --negative="i know what i'm doing"; then
+if gum confirm "install the non flatpak OBS Studio version?"; then
   pacman -Sy obs-studio
 else
   flatpak install flathub com.obsproject.Studio

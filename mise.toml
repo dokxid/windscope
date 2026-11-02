@@ -9,6 +9,7 @@ python = "3.15"
 [env]
 # dirs
 ROOT_DIR = "{{config_root}}"
+SCRIPT_DIR = "{{env.ROOT_DIR}}/scripts"
 SCANNER_DIR = "{{env.ROOT_DIR}}/scanner/CS_CityScoPy-3.2"
 APP_DIR = "{{env.ROOT_DIR}}/simulator"
 API_DIR = "{{env.APP_DIR}}/server"
