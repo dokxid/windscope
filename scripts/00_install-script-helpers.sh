@@ -10,3 +10,6 @@ fi
 
 # script helpers
 pacman -Sy gum mise
+
+# setup mise
+mise trust

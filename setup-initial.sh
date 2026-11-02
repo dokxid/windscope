@@ -8,10 +8,4 @@ if ! [ -x "$(command -v pacman)" ]; then
   exit 1
 fi
 
-# script helpers
-pacman -Sy gum mise
-
-# setup mise
-mise trust
-
 run-parts --regex '.sh$' "$SCRIPT_DIR/scripts"
