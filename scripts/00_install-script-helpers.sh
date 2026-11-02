@@ -13,3 +13,5 @@ pacman -Sy gum mise
 
 # setup mise
 mise trust
+# shellcheck disable=SC2016
+echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
