@@ -3,4 +3,3 @@ set -xeuo pipefail
 
 cd "$APP_DIR"
 pnpm install --lockfile-only
-pnpm install --global http-server
