@@ -40,7 +40,7 @@ flowchart TB
 > [!CAUTION]
 > TBD
 ```sh
-git clone --recurse-submodules
+git clone --recurse-submodules https://github.com/dokxid/windscope.git
 ```
 
 ## start the server
