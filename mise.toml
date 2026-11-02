@@ -2,3 +2,8 @@
 node = "26.13"
 poetry = "2.5"
 python = "3.15"
+
+[env]
+ROOT_DIR = "{{config_root}}"
+SCANNER_DIR = "{{config_root}}/scanner"
+APP_DIR = "{{config_root}}/windpark-app"
