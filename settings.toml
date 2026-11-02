@@ -1,0 +1,47 @@
+# TODO: integrate this in the other projects
+
+[general]
+nrows = 16
+ncols = 16
+
+[scanner]
+cam_id = 0
+
+[app]
+gridOverlay = 0
+
+# predefined tags
+[tags]
+park = {
+  id = 0,
+  name = "Park",
+  code = "0000000000000000",
+}
+road = {
+  id = 1,
+  name = "Road",
+  nameDE = "Straße",
+  code = "1111000011110000",
+}
+residential = {
+  id = 2,
+  name = "Residential",
+  nameDE = "Siedlung",
+  code = "1111111111111111",
+}
+water = {
+  id = 3,
+  name = "Water",
+  nameDE = "Wasser",
+  code = "1111111100000000",
+}
+windTurbineSmall = {
+  id = 4,
+  name = "Kleine Windkraftanlage",
+  code = "0011001111111111",
+}
+windTurbineBig = {
+  id = 5,
+  name = "Große Windkraftanlage",
+  code = "1100110000110011",
+}
