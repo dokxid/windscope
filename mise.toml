@@ -1,0 +1,4 @@
+[tools]
+node = "26.13"
+poetry = "2.5"
+python = "3.15"
