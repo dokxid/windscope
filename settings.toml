@@ -10,11 +10,11 @@ cam_id = 0
 [app]
 gridOverlay = 0
 
-# predefined tags
 [tags]
 park = {
   id = 0,
   name = "Park",
+  nameDE = "Park",
   code = "0000000000000000",
 }
 road = {
@@ -37,11 +37,13 @@ water = {
 }
 windTurbineSmall = {
   id = 4,
-  name = "Kleine Windkraftanlage",
+  name = "Wind Turbine Small",
+  nameDE = "Kleine Windkraftanlage",
   code = "0011001111111111",
 }
 windTurbineBig = {
   id = 5,
-  name = "Große Windkraftanlage",
+  name = "Wind Turbine Big",
+  nameDE = "Große Windkraftanlage",
   code = "1100110000110011",
 }
