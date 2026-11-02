@@ -37,13 +37,19 @@ flowchart TB
 ```
 
 ## setup the project from a clean system
-TBD
+> [!CAUTION]
+> TBD
+```sh
+git clone --recurse-submodules
+```
 
 ## start the server
-> note that a shell alias is defined for `run` to be aliased to `mise run`
-i would suggest using 3 separate terminal windows/tabs for every mise task
+> [!TIP]
+> i would suggest using 3 separate terminal windows/tabs for every mise task
 ```sh
 mise run
+# a shell alias is defined for `run` to be aliased to `mise run`, so you can also run:
+run
 ```
 and now select the task you want
 ```system
