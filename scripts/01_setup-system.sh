@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-run-parts --regex '.sh$' "$SCRIPT_DIR/system"
+# run-parts --list --regex '.sh$' "$SCRIPT_DIR/system"
+
+echo 'this would execute:'
+run-parts --list --regex '.sh$' "$SCRIPT_DIR/system"

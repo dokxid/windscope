@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -xeuo pipefail
 
 # docs https://python-poetry.org/docs/basic-usage/
 cd "$SCANNER_DIR"

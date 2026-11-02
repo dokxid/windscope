@@ -40,4 +40,4 @@ run = "pnpm run start"
 [tasks.frontend]
 description = "serve the simulator frontend"
 dir = "{{env.APP_DIR}}"
-run = "http-server -c-1"
+run = "pnpm exec http-server -c-1"
