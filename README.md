@@ -41,6 +41,9 @@ flowchart TB
 > TBD
 ```sh
 git clone --recurse-submodules https://github.com/dokxid/windscope.git
+cd windscope
+./create-user.sh  # needed if u want a kiosk user
+./setup.sh
 ```
 
 ## start the server
@@ -53,13 +56,12 @@ run
 ```
 and now select the task you want
 ```system
-$ mise run
+ $ run
 Tasks
 Select a task to run
-  calibrate  calibrate the scanner camera
-❯ frontend   run the frontend
-  scanner    run the scanner
-  server     run the api backend for the app
-/
-esc clear filter • enter confirm
+❯ calibrate  calibrate the scanner camera
+  frontend   serve the simulator frontend
+  scanner    start the scanner
+  simulator  start the simulator API
+↑/↓/k/j up/down • / filter • enter confirm
 ```
