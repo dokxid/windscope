@@ -1,0 +1,12 @@
+[Unit]
+Description=Windscope Frontend
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/windscope-frontend
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user-target
