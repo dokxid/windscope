@@ -22,7 +22,7 @@ echo "proceeding..."
 echo "installing 3d-effect..."
 if ! test -f /home/"$(whoami)"/.config/obs-studio/plugins/3d-effect; then
   wget -O /tmp/3d-effect.zip https://obsproject.com/forum/resources/3d-effect.1692/version/6258/download?file=113472
-  unzip -p /tmp/001/3d-effect.zip | tar -xvzf - -C /home/"$(whoami)"/.config/obs-studio/plugins
+  unzip -p /tmp/3d-effect.zip | tar -xvzf - -C /home/"$(whoami)"/.config/obs-studio/plugins
 fi
 
 # install shaderfilter obs-plugin
