@@ -17,5 +17,5 @@ sudo usermod -a -G shared "$USERNAME"
 
 # setup initial directory and aliases for interactive shells
 ln -s "$ROOT_DIR" "/home/$USERNAME/windscope"
-echo "alias home=$ROOT_DIR"
+echo "alias home=$ROOT_DIR" > "$HOME_DIR/.bashrc"
 echo "cd ~/windscope" > "$HOME_DIR/.bashrc"
