@@ -1,9 +1,9 @@
 [Unit]
-Description=Windscope Frontend
+Description=Windscope Simulator
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/windscope-frontend
+ExecStart=/home/shared/windscope/include/bin/windscope-run
 Restart=on-failure
 RestartSec=10
 KillMode=process
