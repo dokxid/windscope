@@ -1,6 +1,6 @@
 [submodule "windpark-simulator"]
 	path = simulator
-	url = git@github.com:ifgi/windpark-simulator.git
+	url = https://github.com/ifgi/windpark-simulator.git
 [submodule "windscope_scanner"]
 	path = scanner
-	url = git@github.com:ifgi/windscope_scanner.git
+	url = https://github.com/ifgi/windscope_scanner.git
