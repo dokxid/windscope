@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /home/shared/simulator
+pnpm exec http-server -c-1

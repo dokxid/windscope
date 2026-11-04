@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /home/shared/simulator/server
+pnpm run start

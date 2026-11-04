@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /home/shared/windscope/scanner/CS_CityScoPy-3.2
+poetry run python calibrate.py
