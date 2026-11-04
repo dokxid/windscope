@@ -10,9 +10,13 @@ useradd -m "$USERNAME"
 passwd "$USERNAME"
 
 # give cloned folder correct permissions
+sudo mkdir /home/shared/
 sudo groupadd shared
-sudo chgrp shared "$ROOT_DIR"
+sudo chown :shared "$ROOT_DIR"
+sudo chown :shared "/home/shared"
 sudo chmod 2770 "$ROOT_DIR"
+sudo chmod 2770 "/home/shared"
+sudo usermod -a -G shared $(whoami)
 sudo usermod -a -G shared "$USERNAME"
 
 # setup initial directory and aliases for interactive shells
